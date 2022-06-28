@@ -35,6 +35,7 @@
         <nav>
             <div class="logo">Portfolio</div>
             <div class="menu">
+            
                 <a href="contact.html">Contact Me</a>
                 
             </div>
@@ -45,7 +46,27 @@
             I'm Harshita, </h1>
             <p> and I'm glad to see you here!</p>
         
-            <a href="uff.html">More About Me</a>
+            <div class="container">
+                <button class="click">More About Me</button>
+                <div class="list">
+                    <button class="links"><a href="uff.html">About Me</a></button>
+                    <button class="links"><a href="blank.html">Education</a></button>
+                    <button class="links"><a href="blank.html">Skills</a></button>
+                    <button class="links"><a href="blank.html">Art Gallery</a></button>
+                    <button class="links"><a href="blank.html">Shayarandaz</a></button>
+
+                </div>
+            </div>
+            <script>
+                let click= document.querySelector('.click');
+                let list= document.querySelector('.list');
+                click.addEventListener("click",()=>{
+                    list.classList.toggle('newlist');
+                });
+
+
+            </script>
+
 
         </div>
 
