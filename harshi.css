@@ -41,8 +41,8 @@ nav{
 .h-text{
     max-width: 500px;
     position: absolute;
-    top: 230%;
-    left: 10%;
+    top: 225%;
+    left: 7%;
     font-family: 'The Nautigal', cursive;
 
 
@@ -111,4 +111,44 @@ nav{
     position: absolute;
     right:5%;
     z-index: -1;
+}
+
+.container{
+    width:200px;
+    position:relative;
+}
+.click{
+    background-color:#B0E0E6;
+
+}
+.click:hover {
+    background-color:#FAEBD7;
+}
+.click,.links{
+    padding: 12px;
+    font-size: 1.2em;
+    font-family: 'Lora', serif;
+    border:none;
+    outline: none;
+    width:200px;
+    transition: 0.3s;
+}
+.list {
+    position: absolute;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: 0.3s;
+}
+.newlist{
+    transform:scaleY(1);
+}
+.links{
+    background-color: #B0E0E6;
+
+}
+.links:hover{
+    background-color: transparent;
+    transform: scale(1.1);
+    color: black;
+
 }
