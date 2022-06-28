@@ -1,0 +1,35 @@
+*{padding:0; margin:0; box-sizing:border-box;}
+
+.about-text h2{
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    font-family: 'The Nautigal', cursive;
+    text-align: center;
+    margin-top: 28%;
+}
+.about-text p{
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    margin-top: 25%;
+}
+.box{
+    width: 70%;
+    height: 51%;
+    position: absolute;
+    top:200px;
+    right:14%;
+    background:#FAEBD7;
+    z-index: -2;
+    align-self: center;
+}
+.about-text{
+    width:550px;
+}
+.main{
+    
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;}
